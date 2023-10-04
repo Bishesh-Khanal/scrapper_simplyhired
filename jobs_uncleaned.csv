@@ -1,21 +1,101 @@
-,Job,Salary,Company,Posted
-0,Data Analyst,"Estimated: $81,800 - $106,400 a year",Peloton —,N/A
-1,Intelligence Analyst,"Estimated: $62,000 a year",Nassau County District Attorney's Office —,3d
-2,Data Analyst,N/A,Live Nation —,12d
-3,Data Analyst,"Estimated: $60,000 - $100,000 a year",Peregrine Market Access —,5d
-4,Data Analyst,"Estimated: $76,837 - $83,679 a year",Helix Tech IT solution —,3d
-5,Document Analyst (Data Entry),"Estimated: $47,800 - $50,500 a year",American Arbitration Association Inc. —,6d
-6,Entry Level Data Analyst,"Estimated: $62,063 - $65,095 a year","Swivel Payment Solutions, LLC —",N/A
-7,Data Analyst,Estimated: $40 an hour,Questar III BOCES —,N/A
-8,Operational Analyst II,"Estimated: From $55,431 a year","Coast Professional, Inc. —",11h
-9,Early Career 2024 - Data Analyst,"Estimated: $40,000 - $160,000 a year",Dow Jones —,11d
-10,Data Analyst 1,"Estimated: $63,108 - $80,248 a year",New York State Insurance Fund —,12d
-11,Data Analyst,N/A,CDC Foundation —,N/A
-12,"Data Analyst 1 - 03498, 03501",N/A,"Health, Department of —",3d
-13,Data Analyst,"Estimated: $70,000 - $90,000 a year",LaBella Associates —,N/A
-14,Business Analyst I - REDCap 2644,"Estimated: $87,300 - $139,800 a year",Memorial Sloan Kettering Cancer Center —,11h
-15,IT Data Analyst,"Estimated: $55,500 - $70,000 a year",Glens Falls National Bank & Trust Company —,N/A
-16,Data Analyst,Estimated: $68.9K - $87.2K a year,SUNY Upstate Medical University —,10d
-17,Human Resources Data Analyst and Auditor,Estimated: $32.87 - $49.31 an hour,Catholic Health —,16h
-18,Data Analyst,"Estimated: $70,000 a year",Public Health Solutions —,N/A
-19,Healthcare Data Analyst,"Estimated: $56,000 - $65,000 a year",Staffing Solutions Organization LLC (SSO) —,N/A
+,Job,Salary,Company,Rating,Posted
+0,Data Quality Associate,"Estimated: $55,000 - $65,000 a year",The Center for Information and Study on Clinical Research Participation —,N/A,N/A
+1,Software Tester,Estimated: $15 an hour,ApplicantPro —,4.7 ,6d
+2,21 - Desktop Support Technician,Estimated: $16 - $39 an hour,PayPal —,3.9 ,8d
+3,Technical Support Engineer,Estimated: $55.9K - $70.8K a year,CrossFit —,4.5 ,N/A
+4,Legal Data Specialist (Entry Level) – Remote,Estimated: $23 - $26 an hour,Gibbs Law Group LLP —,4 ,6d
+5,IT Helpdesk Remote Support; Support Specialist I,Estimated: $35.1K - $44.5K a year,Liberty University —,3.8 ,N/A
+6,Software Support Analyst,Estimated: $57.8K - $73.2K a year,Grant Street Group —,3.9 ,7d
+7,IT Support Specialist II - $5000 - Remote,"Estimated: Up to $5,000 a month",Gold Alliance —,4.7 ,12h
+8,Software Support Specialist,Estimated: $44.5K - $56.4K a year,"Catalis Courts & Land Records, LLC —",N/A,6h
+9,Applications Analyst 1,Estimated: $59.8K - $75.7K a year,St. Luke's Health System —,3.5 ,8d
+10,Software Support Technician,"Estimated: $55,000 - $70,000 a year","Key Information Technologies, Inc —",N/A,11d
+11,IT Support Engineer,Estimated: $52.2K - $66.1K a year,Stealth Management —,3.9 ,N/A
+12,Technical Support,"Estimated: $65,000 - $85,000 a year",La Compagnie Électrique Lion —,3 ,7d
+13,Associate Support Engineer,Estimated: $54.9K - $69.6K a year,EasyPost —,2.4 ,1d
+14,QA Tester,Estimated: Up to $60.43 an hour,Proits Hub LLC —,N/A,N/A
+15,Level I Remote Support,Estimated: $55K - $69.7K a year,Lincoln IT —,N/A,N/A
+16,Support Desk Technician - US Pacific Time Coverage,"Estimated: $45,000 - $55,000 a year",Parlance —,N/A,4d
+17,Data Analyst,"Estimated: $75,000 - $90,000 a year",Meritize —,5 ,N/A
+18,"Data Analyst, Securitizations Reporting",Estimated: $67.4K - $85.4K a year,dv01 —,5 ,1d
+19,Software Engineer – Entry Level,"Estimated: $90,400 - $92,600 a year","General Dynamics Mission Systems, Inc —",3.7 ,23h
+20,IT Support Engineer,"Estimated: $75,000 - $95,000 a year",Pomelo Care —,N/A,N/A
+21,Help Desk Technician (Remote),"Estimated: $40,000 - $48,000 a year","IMPACT Technology Group, Inc. —",4.3 ,N/A
+22,Tester – Junior,Estimated: $54.6K - $69.2K a year,"Technology Solutions Provider, Inc. —",N/A,N/A
+23,Data Quality Specialist,"Estimated: From $35,000 a year",LandSearch —,N/A,N/A
+24,Technical Support Analyst I,Estimated: $48.5K - $61.4K a year,RELX —,4.3 ,1d
+25,Associate Product Data Scientist,Estimated: $53.2K - $67.3K a year,Treehouse Foods —,3 ,11h
+26,Junior Tester,"Estimated: $60,000 - $65,000 a year",BaseCap Analytics Inc —,N/A,6d
+27,Remote Microsoft Support Technician,Estimated: $43.6K - $55.2K a year,"CallTower, Inc. —",N/A,5d
+28,Software Tester,"Estimated: $70,000 - $88,000 a year","Tactical Edge, Inc. —",N/A,N/A
+29,Data Technician,Estimated: $45.6K - $57.8K a year,Land Intelligence Inc —,N/A,14h
+30,Data Collection Projects,Estimated: $85.1K - $108K a year,Argos Multilingual —,3.5 ,N/A
+31,Data Analyst - Part-Time (Contract),Estimated: $66.9K - $84.8K a year,Origin —,4 ,N/A
+32,National Support Desk Analyst - 16422,"Estimated: $59,860 - $65,000 a year",HII —,3.7 ,7h
+33,IVR Tester,Estimated: $25 - $30 an hour,SWI —,N/A,N/A
+34,Technology Specialist,N/A,Ascension —,3.6 ,N/A
+35,Tier One Technician (Data NOC) ENTRY LEVEL,Estimated: $27.6K - $34.9K a year,Velocity A Managed Services Company —,2.3 ,N/A
+36,Data Specialist,N/A,"Catholic Legal Immigration Network, Inc. —",5 ,7d
+37,Helpdesk Support Staff,Estimated: $10 - $15 an hour,"PEC, Inc. —",N/A,N/A
+38,Technical Engineer (US),"Estimated: From $65,000 a year",Kalibrate —,3.8 ,1d
+39,IT Support Specialist,Estimated: $75.3K - $95.3K a year,Phaidra —,N/A,13d
+40,Curam Tester,Estimated: $100 - $110 an hour,Kaizen Dynamics —,N/A,12h
+41,Applications Analyst I,Estimated: $63.3K - $80.2K a year,CCMR3 —,1 ,N/A
+42,Technical Support Engineer,Estimated: $20 - $30 an hour,"PFU America, Inc. —",N/A,N/A
+43,Remote Technical Support Specialist,Estimated: $20 - $21 an hour,Verra Mobility —,2.8 ,5d
+44,IT Documentation Specialist,Estimated: $58.7K - $74.4K a year,Parasol Alliance —,N/A,N/A
+45,Support Specialist,Estimated: $42.6K - $53.9K a year,Wonder Entertainment Inc. —,N/A,N/A
+46,Support Specialist - Animation,Estimated: $85.8K - $109K a year,Netflix —,3.9 ,12d
+47,Software Support Technician,Estimated: $17 - $20 an hour,Franklin Estimating Systems —,4 ,N/A
+48,Software Support Specialist - Tier 1 (Remote),Estimated: $46.7K - $59.1K a year,FEI Systems —,3.4 ,N/A
+49,L1 Tech Support Specialist,Estimated: $46.8K - $59.3K a year,Eye Care Leaders Group —,N/A,N/A
+50,Help Desk Support Associate,"Estimated: $50,000 - $55,000 a year","Savvee Consulting, Inc. —",3.3 ,6d
+51,Security Help Desk Technician,"Estimated: $40,000 - $60,000 a year",Galactic Advisors —,N/A,N/A
+52,"Associate Analyst, Customer Data (REMOTE)","Estimated: $78,000 - $80,000 a year",Abercrombie and Fitch Co. —,3.5 ,1d
+53,IT Support Engineer,Estimated: $57.5K - $72.8K a year,Applied Research Works —,2.5 ,N/A
+54,Software Tester,"Estimated: $110,000 - $120,000 a year","WhirlWind Technologies, LLC —",4.3 ,4d
+55,Junior Game Designer,Estimated: $58.5K - $74K a year,Rumble Entertainment —,3 ,N/A
+56,"IT Procurement Analyst (Remote, US)",Estimated: $73.4K - $92.9K a year,Openly —,5 ,15h
+57,QA Analyst/Software Product Tester - Testing & Documenting Money Making Apps (REMOTE),Estimated: $15 - $20 an hour,OnrampLab —,1 ,N/A
+58,"Associate, EMR and Software Support",Estimated: $46.9K - $59.4K a year,Oak Street Health —,2.5 ,5d
+59,Technical Support Expert - Level 1 - Remote Monitoring and Management (RMM) - (6am - 230pm),Estimated: $64.8K - $82.1K a year,Kaseya Careers —,3.8 ,8d
+60,Assistant Faculty - Computer Information Systems 101 - Part-time - Online,Estimated: $47K - $59.6K a year,Strayer University —,3.5 ,9h
+61,Software Quality Tester,N/A,iFIT —,3.5 ,N/A
+62,Jr. Business Analyst Training& Placement,Estimated: From $40 an hour,Precision Technology —,3.4 ,11d
+63,Data Analyst,Estimated: $76.6K - $96.9K a year,Finetune —,N/A,7h
+64,Desktop Support Engineer,"Estimated: $75,000 - $80,000 a year",Align —,3.7 ,12d
+65,html Coder,Estimated: $73.1K - $92.6K a year,Resmatic Inc. —,N/A,N/A
+66,Data Analyst,Estimated: $61.6K - $78.1K a year,Knowbl —,N/A,11d
+67,"Associate Software Engineer, Dev Support","Estimated: $51,000 - $72,000 a year",InvoiceCloud —,3.5 ,N/A
+68,Technical Customer Support Representative,"Estimated: $45,000 - $55,000 a year",Sakari —,N/A,N/A
+69,Entry Level Java Developer - 99,"Estimated: $45,000 - $50,000 a year",I28 Technologies Corporation —,4 ,N/A
+70,IT Support Specialist,Estimated: $46.1K - $58.3K a year,GAINS INTERMEDIATE LLC —,N/A,N/A
+71,Technical Support Specialist,Estimated: $44.7K - $56.5K a year,Clarity Voice —,3.3 ,N/A
+72,Data Processing Technician,"Estimated: $40,000 - $60,000 a year",Platform Transition —,5 ,14d
+73,IT Specialist (Contractor),Estimated: $45 - $60 an hour,Kentik —,1 ,5d
+74,Data Operations Specialist,"Estimated: $64,000 - $78,000 a year",InMarket —,4.5 ,N/A
+75,IT Help Desk Technician,Estimated: $41.7K - $52.8K a year,Advanced Computer Solutions —,5 ,N/A
+76,IT Systems Analyst,"Estimated: $63,000 - $100,000 a year",FlexTG —,N/A,11h
+77,IT Support Technician,N/A,Angi —,3.1 ,11d
+78,Support Engineer I,"Estimated: $57,000 - $85,500 a year",HealthEquity —,3.7 ,N/A
+79,IT Application Specialist – Healthcare,"Estimated: $60,000 a year",CareXM —,3.4 ,N/A
+80,Software Support Analyst I,"Estimated: $45,000 - $54,000 a year",Jenzabar —,3.6 ,5d
+81,Support Desk - Contractor (Remote),Estimated: $20 an hour,ExecOnline —,4.3 ,N/A
+82,L2 Helpdesk Engineer-Remote,Estimated: $54.6K - $69.2K a year,Braver Technology —,4.3 ,N/A
+83,Client Support Specialist,N/A,Live Nation —,4.1 ,1d
+84,IT Specialist I,Estimated: $57.5K - $72.8K a year,Optimized Technical Solutions —,N/A,N/A
+85,IT Help Desk,Estimated: $42.9K - $54.3K a year,Roig Lawyers —,3.8 ,N/A
+86,Junior Developer,N/A,Jeeter —,2.9 ,3h
+87,IT Support Technician,"Estimated: $55,000 a year",Irca Group —,N/A,N/A
+88,"REMOTE Quality Assurance Analyst I, II, III",Estimated: $55.1K - $69.8K a year,National General Insurance —,2.9 ,N/A
+89,Software Engineer 4 - TV UI,Estimated: $110K - $139K a year,Netflix —,3.9 ,N/A
+90,Data Analyst,N/A,ScribeAmerica —,3.1 ,11d
+91,Service Desk Specialist I,"Estimated: $60,000 - $70,000 a year",LivePerson —,3.7 ,9h
+92,Help Desk Administrator,Estimated: $44.8K - $56.8K a year,CCMR3 —,1 ,N/A
+93,Search Engine Evaluator: LIGHTSPEED,Estimated: $12 an hour,"Centific Global Solutions, Inc. —",N/A,N/A
+94,RME UnMudl Career Pathway - Control Systems Technician,"Estimated: Up to $98,800 a year",Amazon.com Services LLC —,3.5 ,10h
+95,Data Management Analyst,Estimated: $54.8K - $69.4K a year,Prudent Technology —,N/A,N/A
+96,Part-Time Help Desk Specialist – Information Technology (IT),Estimated: $43.7K - $55.4K a year,Jones Day —,3.9 ,N/A
+97,Help Desk Representative,Estimated: $58.7K - $74.3K a year,Trader Interactive —,3.1 ,4d
+98,Software Support Level 1 (West Coast),Estimated: $36.6K - $46.3K a year,"DaySmart Software, LLC —",3 ,N/A
+99,QA Specialist,Estimated: $68.4K - $86.6K a year,Focus School Software —,3.3 ,N/A
