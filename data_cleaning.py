@@ -82,3 +82,6 @@ replace('Type', ' ', '')
 replace('Type', '|', ', ')
 
 df['Type'] = df['Type'].apply(lambda x: 'nan' if '$' in x else x)
+
+# ------------------------------------------------------EXPORTING-------------------------------------------
+df.to_csv('jobs_cleaned.csv')
