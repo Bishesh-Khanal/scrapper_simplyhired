@@ -67,13 +67,9 @@ df['Posted_Date'] = df['Posted'].apply(lambda x: 4 if 'h' in x else 4 - float(x.
 df.insert(9, 'Posted_Date', df.pop('Posted_Date'))
 df['Posted_Date'] = df['Posted_Date'].apply(lambda x: 30 + x if x <= 0 else x)
 
-df['Posted_Month'] = df['Posted_Date'].apply(lambda x: 10 if x <= 4 else 9 if x in range(5,31) else 'nan')
+df['Posted_Month'] = df['Posted_Date'].apply(lambda x: 10 if x <= 4 else 9 if x in range(5,31) else float('nan'))
 df.insert(10, 'Posted_Month', df.pop('Posted_Month'))
 df['Posted_Month'] = df['Posted_Month'].apply(lambda x: str(x))
-
-df['Posted_Year'] = pd.Series([float])
-df['Posted_Year'] = df['Posted_Month'].apply(lambda x: 2023 if x in range(1, 13) else str('nan'))
-df.insert(11, 'Posted_Year', df.pop('Posted_Year'))
 
 df['Posted_Date'] = df['Posted_Date'].apply(lambda x: str(x))
 
