@@ -6,7 +6,7 @@ def replace(column, to_replace, replace_with):
 def salary_type(new_column, old_column, position, keyword):
     nan = 'nan'
     df[new_column] = pd.Series([float])
-    df[new_column] = df[old_column].apply(lambda x: 1 if keyword in x else float(nan) if nan in x else 0)
+    df[new_column] = df[old_column].apply(lambda x: 1 if keyword in x else str(nan) if nan in x else 0)
     df.insert(position, new_column, df.pop(new_column))
 
 df_original = pd.read_csv('jobs_uncleaned.csv')
@@ -46,8 +46,8 @@ df['Salary_End'] = df['Salary_End'].apply(lambda x: x.replace('.', '') if 'K' in
 replace('Salary_Begin', 'K', '')
 replace('Salary_End', 'K', '')
 
-df['Salary_Begin'] = df['Salary_Begin'].apply(lambda x: float(x))
-df['Salary_End'] = df['Salary_End'].apply(lambda x: float(x))
+df['Salary_Begin'] = df['Salary_Begin'].apply(lambda x: str(x))
+df['Salary_End'] = df['Salary_End'].apply(lambda x: str(x))
 
 df['Salary_Begin'][99] = 20
 df['Salary_End'][99] = 30
@@ -69,11 +69,13 @@ df['Posted_Date'] = df['Posted_Date'].apply(lambda x: 30 + x if x <= 0 else x)
 
 df['Posted_Month'] = df['Posted_Date'].apply(lambda x: 10 if x <= 4 else 9 if x in range(5,31) else 'nan')
 df.insert(10, 'Posted_Month', df.pop('Posted_Month'))
-df['Posted_Month'] = df['Posted_Month'].apply(lambda x: float(x))
+df['Posted_Month'] = df['Posted_Month'].apply(lambda x: str(x))
 
 df['Posted_Year'] = pd.Series([float])
-df['Posted_Year'] = df['Posted_Month'].apply(lambda x: 2023 if x in range(1, 13) else float('nan'))
+df['Posted_Year'] = df['Posted_Month'].apply(lambda x: 2023 if x in range(1, 13) else str('nan'))
 df.insert(11, 'Posted_Year', df.pop('Posted_Year'))
+
+df['Posted_Date'] = df['Posted_Date'].apply(lambda x: str(x))
 
 del df['Posted']
 
@@ -82,6 +84,11 @@ replace('Type', ' ', '')
 replace('Type', '|', ', ')
 
 df['Type'] = df['Type'].apply(lambda x: 'nan' if '$' in x else x)
+
+# ------------------------------------------------------CLEANED THE REMAINING-------------------------------------------
+df['Rating'] = df['Rating'].apply(lambda x: str(x))
+df['Benefits'] = df['Benefits'].apply(lambda x: str(x))
+df['Qualifications'] = df['Qualifications'].apply(lambda x: str(x))
 
 # ------------------------------------------------------EXPORTING-------------------------------------------
 df.to_csv('jobs_cleaned.csv')
