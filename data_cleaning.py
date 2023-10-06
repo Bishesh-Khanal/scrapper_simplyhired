@@ -49,11 +49,13 @@ replace('Salary_End', 'K', '')
 df['Salary_Begin'] = df['Salary_Begin'].apply(lambda x: float(x))
 df['Salary_End'] = df['Salary_End'].apply(lambda x: float(x))
 
-df['Salary_Begin'][99] = 20
-df['Salary_End'][99] = 30
-df['Hourly'][99] = 1
-df['Monthly'][99] = 0
-df['Yearly'][99] = 0
+
+df['Salary_Begin'][870] = 62250
+df['Salary_End'][870] = 91300
+df['Hourly'][870] = 0
+df['Monthly'][870] = 0
+df['Yearly'][870] = 1
+
 
 del df['Salary']
 
@@ -63,21 +65,24 @@ replace('Company', ' —', '')
 # ------------------------------------------------------CLEANED THE POSTED DATE-------------------------------------------
 df['Posted'] = df['Posted'].apply(lambda x: str(x))
 
-df['Posted_Date'] = df['Posted'].apply(lambda x: 4 if 'h' in x else 4 - float(x.replace('d', '')))
+df['Posted_Date'] = df['Posted'].apply(lambda x: 6 if 'h' in x else 6 - float(x.replace('d', '')))
 df.insert(9, 'Posted_Date', df.pop('Posted_Date'))
 df['Posted_Date'] = df['Posted_Date'].apply(lambda x: 30 + x if x <= 0 else x)
 
-df['Posted_Month'] = df['Posted_Date'].apply(lambda x: 10 if x <= 4 else 9 if x in range(5,31) else float('nan'))
+df['Posted_Month'] = df['Posted_Date'].apply(lambda x: 10 if x <= 6 else 9 if x in range(7,31) else float('nan'))
 df.insert(10, 'Posted_Month', df.pop('Posted_Month'))
 df['Posted_Month'] = df['Posted_Month'].apply(lambda x: float(x))
 
 del df['Posted']
 
 # ------------------------------------------------------CLEANED THE TYPE-------------------------------------------
+df['Type'] = df['Type'].apply(lambda x: str(x))
 replace('Type', ' ', '')
 replace('Type', '|', ', ')
 
 df['Type'] = df['Type'].apply(lambda x: float('nan') if '$' in x else x)
+df['Type'][421] = float('nan')
+
 
 # ------------------------------------------------------EXPORTING-------------------------------------------
 df.to_csv('jobs_cleaned.csv')
