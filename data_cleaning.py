@@ -82,7 +82,10 @@ replace('Type', '|', ', ')
 
 df['Type'] = df['Type'].apply(lambda x: float('nan') if '$' in x else x)
 df['Type'][421] = float('nan')
+df['Type'][510] = float('nan')
 
+# ------------------------------------------------------DROPING THE RELATED JOBS-------------------------------------------
+df = df.drop([240, 280, 260, 281, 300])
 
 # ------------------------------------------------------EXPORTING-------------------------------------------
 df.to_csv('jobs_cleaned.csv')
