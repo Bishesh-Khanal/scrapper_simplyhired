@@ -12,6 +12,9 @@ def error_detection(item, tag, classs=0):
 def scrape(URL, headers, jobs_dictionary, pages_visited, pages_to_scrape):
     html_contents = requests.get(URL, headers = headers)
     print('page status code = ', html_contents.status_code)
+    if html_contents.status_code == 403:
+        print('Access not granted to the page')
+        return pd.DataFrame(jobs_dictionary)
     
     soup = BeautifulSoup(html_contents.text, 'lxml')
     jobs = soup.find_all('li', class_ = 'css-0' )
@@ -24,6 +27,9 @@ def scrape(URL, headers, jobs_dictionary, pages_visited, pages_to_scrape):
         
         job_contents = requests.get(job_link, headers = headers)
         print('Job status code = ', job_contents.status_code)
+        if job_contents.status_code == 403:
+            print('Access not granted to the job-page')
+            return pd.DataFrame(jobs_dictionary)
         
         soup_job_details = BeautifulSoup(job_contents.text, 'lxml')
         job_details = soup_job_details.find('div', class_ = 'css-1u3q0w0')
