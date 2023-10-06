@@ -84,8 +84,9 @@ df['Type'] = df['Type'].apply(lambda x: float('nan') if '$' in x else x)
 df['Type'][421] = float('nan')
 df['Type'][510] = float('nan')
 
-# ------------------------------------------------------DROPING THE RELATED JOBS-------------------------------------------
+# ------------------------------------------------------DROPING THE RELATED JOBS AND RESETING THE INDEX-------------------------------------------
 df = df.drop([240, 280, 260, 281, 300])
+df = df.reset_index(drop=True)
 
 # ------------------------------------------------------EXPORTING-------------------------------------------
 df.to_csv('jobs_cleaned.csv')
