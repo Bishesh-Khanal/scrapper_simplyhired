@@ -7,6 +7,8 @@ name = "pypi"
 panel = "*"
 jupyter = "*"
 hvplot = "*"
+pandas = "*"
+tornado = "*"
 
 [dev-packages]
 
